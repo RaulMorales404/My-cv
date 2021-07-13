@@ -2,7 +2,7 @@
 
 .loader{
   position: absolute;
-  top: -5px;
+ 
   z-index: 999;
   position: fixed;
   height: 1200px;
