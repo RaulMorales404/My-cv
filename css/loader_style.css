@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 .loader{
-  position: absolute;
- 
   z-index: 999;
- top:-510px;
-  height: 130%;
+  position: fixed;
+  top:-20px;
+  height: 120vh;
   width: 100%;
   display: flex;
   align-items: center;
