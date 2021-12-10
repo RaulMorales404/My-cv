@@ -471,12 +471,22 @@ color: #FDFDFD !important;
 }
 /*Skills*/
 .skilltitle {
+
+width: 150px;
 text-align: right;
 font-weight: 600;
 padding-right: 0px;
 margin:5px;
 
 }
+.skilltitleSoft{
+    width: 200px;
+    text-align: left;
+    font-weight: 600;
+    padding-right: 0px;
+    margin:5px;
+    
+    }
 
 .progress {
 border-radius: 3px;
