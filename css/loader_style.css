@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 
 .loader{
-  position: absolute;
-  top: -10px;
   z-index: 999;
+  top:-10px;
   position: fixed;
   height: 130%;
   width: 100%;
@@ -16,7 +15,6 @@
 .loader .ring{
   height: 45px;
   width: 45px;
-  
   border-radius: 50%;
   position: relative;
   display: flex;
@@ -25,8 +23,9 @@
 }
 .loader .ring:after{
   position: absolute;
+  top:-10px;
   content: "";
-  height: 100%;
+  height: 120%;
   width: 100%;
   border-radius: 20%;
   border: 2px solid hsl(192, 100%, 50%);
